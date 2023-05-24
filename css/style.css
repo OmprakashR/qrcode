@@ -47,8 +47,9 @@ img {
     padding: 10px;
 }
 
-h3 {
+h1 {
     font-weight: 700;
+    font-size: 21px;
     color: hsl(218, 44%, 22%);
 }
 
