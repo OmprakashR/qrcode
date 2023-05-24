@@ -1,0 +1,65 @@
+/*Challenge complte by Omprakash Rahaangdale*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    --radius: 20px;
+}
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.QR-card {
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    max-width: 290px;
+    width: 290px;
+    margin: 4%;
+    border-radius: var(--radius);
+
+}
+
+.QR-card {
+    box-shadow: 0px 0px 20px 0px hsl(220, 15%, 55%);
+    padding: 20px;
+}
+
+img {
+    border-radius: var(--radius);
+    max-width: 100%;
+}
+
+.QR-card-content {
+    padding: 10px;
+}
+
+h3 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-weight: 400;
+    margin-top: 10px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+
+}
+
+/*using flex no need to do media query  
+- Mobile: 375px
+- Desktop: 1440px*/
